@@ -1,6 +1,7 @@
 # No-Flesh-Within-Chest-Docker
 脆骨症整合包服务器端docker快速部署参考方案
 
+整合包作者原地址 https://github.com/Yorunina/No-Flesh-Within-Chest
 
 ## linux云服务器部署方案
 
