@@ -33,3 +33,11 @@
 
 ### 2. 控制台
     内部使用rcon作为控制台手段 建议使用rcon工具连接服务器25575端口使用
+    密码是123123 
+### 3. 自定义和window开服
+    可以下载我的源码 自定义更改server.properties文件 使用指令制造自己的镜像
+    docker build cgzserver . 
+    注:需要自行下载dockerhub 
+    window开服
+    docker run -d  -v /home/mc:/server/world  -p 25565:25565 -p 25575:25575 --name mc-server mikufans029/cgzserver:v0.1
+    挂在目录需要更改成自己本地的-v {}:/server/world
